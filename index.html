@@ -114,7 +114,6 @@ function drawImage(imageObj) {
      var y = 0;
 
 context2.drawImage(imageObj, 0, 0, 600, 500);			// This function sets the size parameters for the image and draws the image which has been established below within those parameters
-
      var imageData = context2.getImageData(x, y, imageObj.width, imageObj.height); // This along with the code below grabs the image data and allows for a manipulation of the image to occur
      var data = imageData.data;
 
